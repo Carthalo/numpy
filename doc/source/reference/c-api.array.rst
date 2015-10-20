@@ -1659,7 +1659,7 @@ Shape Manipulation
     Equivalent to :meth:`ndarray.reshape` (*self*, *shape*) where *shape* is a
     sequence. Converts *shape* to a :c:type:`PyArray_Dims` structure and
     calls :c:func:`PyArray_Newshape` internally.
-    For back-ward compatability -- Not recommended
+    For back-ward compatibility -- Not recommended
 
 .. c:function:: PyObject* PyArray_Squeeze(PyArrayObject* self)
 
